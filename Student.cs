@@ -2,6 +2,8 @@
 
 namespace NullDto
 {
+    // Example Data Transfer Object - *not* specific to any ORM.
+    //
     // From the perspective of the application, the [Required] fields are not optional, but are often 
     // populated automatically by a deserialiser. So there is an empty constructor to allow for that, which
     // results in the below warnings.
